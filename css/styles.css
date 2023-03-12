@@ -59,6 +59,9 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.page-header-conteiner{
+  flex: none;
+}
    /*---------HEADER--------*/
    /* .page-header {
     background: #FFFFFF;
