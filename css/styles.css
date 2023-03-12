@@ -52,6 +52,14 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.team-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: teal;
+}
    /*---------HEADER--------*/
    /* .page-header {
     background: #FFFFFF;
@@ -171,12 +179,18 @@ img {
   }
   /*---------TEAM--------*/
   .team-title {
+    margin-bottom: 72px;
+    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-text-color);
+  }
+  .list-our-team {
+    display: flex;
+    margin-top: 72px;
   }
   .job-text {
     font-size: 16px;
