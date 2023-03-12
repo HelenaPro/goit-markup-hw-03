@@ -52,6 +52,13 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.work-conteiner {
+  position: absolute;
+  width: 1128px;
+  height: 412px;
+  left: 156px;
+  top: 1016px;
+}
 .team-conteiner {
   display: flex;
   flex-wrap: wrap;
