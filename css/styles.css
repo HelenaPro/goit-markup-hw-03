@@ -53,10 +53,11 @@ img {
   padding-right: 15px;
 }
 .work-conteiner {
-  position: absolute;
-  width: 1128px;
   display: flex;
   flex-wrap: wrap;
+  width: 1128px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 .team-conteiner {
   display: flex;
