@@ -55,9 +55,8 @@ img {
 .work-conteiner {
   position: absolute;
   width: 1128px;
-  height: 412px;
-  left: 156px;
-  top: 1016px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .team-conteiner {
   display: flex;
@@ -188,11 +187,12 @@ img {
     text-transform: capitalize;
     color: var(--primary-text-color);
   }
+  
   /*---------TEAM--------*/
   .team-title {
     margin-bottom: 72px;
     text-align: center;
-
+    weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
