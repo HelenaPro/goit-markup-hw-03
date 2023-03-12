@@ -54,7 +54,7 @@ img {
 }
 .work-conteiner {
   display: flex;
-  flex-wrap: wrap;
+  
   width: 1128px;
   padding-top: 112px;
   padding-bottom: 112px;
