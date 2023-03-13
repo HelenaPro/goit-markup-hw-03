@@ -41,9 +41,10 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-
 img {
   display: block;
+  height: auto;
+  width: 100%;
 }
 .conteiner {
   width: 1158px;
@@ -51,6 +52,10 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.work-conteiner {
+  width: 1128px;
+
 }
 .team-conteiner {
   display: flex;
