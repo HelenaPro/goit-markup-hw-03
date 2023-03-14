@@ -54,7 +54,8 @@ img {
   padding-right: 15px;
 }
 .work-conteiner {
-  width: 360px;
+  width: 1128px;
+  display: inline;
 
 }
 .team-conteiner {
