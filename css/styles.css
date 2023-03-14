@@ -56,7 +56,9 @@ img {
 .work-conteiner {
   display: flex;
   flex-wrap: wrap;
-  
+  width: 1128px;
+  padding-left: 156px;
+  padding-top: 1016px;
 }
 .team-conteiner {
   display: flex;
