@@ -56,9 +56,8 @@ img {
 .work-conteiner {
   display: flex;
   flex-wrap: wrap;
-  width: 1128px;
+  width: 1016px;
   padding-left: 156px;
-  padding-top: 1016px;
 }
 .team-conteiner {
   display: flex;
@@ -91,6 +90,12 @@ img {
   }
   .header-studio {
     color: var(--primary-text-color);
+  }
+  .menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
   }
   .menu-link {
     display: flex;
