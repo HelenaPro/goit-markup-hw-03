@@ -54,9 +54,9 @@ img {
   padding-right: 15px;
 }
 .work-conteiner {
-  width: 1128px;
-  display: inline;
-
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 .team-conteiner {
   display: flex;
@@ -92,6 +92,7 @@ img {
   }
   .menu-link {
     display: flex;
+    align-items: center;
     margin-top: 40px;
     font-weight: 500;
     font-size: 16px;
