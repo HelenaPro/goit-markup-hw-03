@@ -221,6 +221,10 @@ img {
     letter-spacing: 0.02em;
     color: var(--accent-color);
   }
+  .teams {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
   /*---------FOOTER--------*/
   .footer {
     background-color: var(--hero-footer-background-color);
