@@ -59,13 +59,6 @@ img {
   width: 1016px;
   padding-left: 156px;
 }
-.team-conteiner {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1440px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .page-header-conteiner{
   flex: none;
 }
@@ -199,6 +192,11 @@ img {
   }
   
   /*---------TEAM--------*/
+  .team-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    }
   .team-title {
     margin-bottom: 72px;
     text-align: center;
