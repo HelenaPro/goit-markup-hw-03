@@ -207,14 +207,8 @@ button {
   }
   /*---------PROJECTS--------*/
   
-  .list-work {
-  box-sizing: border-box;
-  width: 360px;
-  height: 300px;
-  border: 1px solid #E7E9FC;
-  padding: 24px;
-  }
   .work-title {
+    display: flex;
     margin-bottom: 72px;
     text-align: center;
     font-size: 36px;
@@ -223,7 +217,13 @@ button {
     text-transform: capitalize;
     color: var(--primary-text-color);
   }
-  
+  .list-work {
+    box-sizing: border-box;
+    width: 360px;
+    height: 300px;
+    border: 1px solid #E7E9FC;
+    padding: 24px;
+    }
   /*---------TEAM--------*/
   .team-conteiner {
     padding: 32px 0;
