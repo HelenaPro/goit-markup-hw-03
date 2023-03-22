@@ -146,6 +146,7 @@ img {
     padding-bottom: 188px;
   }
   .hero-title {
+    margin: 0 auto;
     margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
