@@ -147,6 +147,8 @@ img {
   }
   .hero-title {
     margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
