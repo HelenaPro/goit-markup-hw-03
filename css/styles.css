@@ -153,9 +153,6 @@ button {
   .team {
     background-color: #f4f4fd;
   }
-  .menu-item {
-    background-color: #ffffff;
-  }
   .hero {
     background-color: var(--primary-text-color);
     text-align: center;
@@ -209,6 +206,14 @@ button {
     color: var(--primary-text-color);
   }
   /*---------PROJECTS--------*/
+  
+  .list-work {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  border: 1px solid #E7E9FC;
+  padding: 24px;
+  }
   .work-title {
     margin-bottom: 72px;
     text-align: center;
@@ -223,7 +228,7 @@ button {
   .team-conteiner {
     padding: 32px 0;
     text-align: center;
-    }
+  }
   .team-title {
     margin-bottom: 72px;
     text-align: center;
@@ -240,6 +245,7 @@ button {
     gap: 24px;
   }
   .menu-item {
+    background-color: #ffffff;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
