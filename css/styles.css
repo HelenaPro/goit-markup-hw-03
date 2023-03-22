@@ -25,7 +25,6 @@
     font-size: 16px;
     line-height: 1.5;
   }
-  /* ==============Components================ */
 }
 h1,
 h2,
@@ -46,18 +45,28 @@ img {
   height: auto;
   width: 100%;
 }
+button {
+  cursor: pointer;
+}
+  /* ==============Components================ */
 .conteiner {
-  width: 1158px;
+  max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-.work-conteiner {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1016px;
-  padding-left: 156px;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
    /*---------HEADER--------*/
    /* .page-header {
@@ -66,7 +75,16 @@ img {
     .page-nav {
    }
    */
-  .page-header-conteiner{
+  .page-header-container {
+    display: flex;
+    align-items: center;
+  }
+  .page-nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  .menu-list {
     display: flex;
     align-items: center;
   }
@@ -85,16 +103,13 @@ img {
   .header-studio {
     color: var(--primary-text-color);
   }
-  .menu-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+  .menu-item:not(:last-child) {
+      margin-right: 40px;
   }
   .menu-link {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -111,7 +126,8 @@ img {
   .address {
     font-style: normal;
   }
-  .menu-contacts {
+  .menu-contacts:not(:last-child) {
+    margin-right: 40px;
   }
   .contact-mail {
     font-style: normal;
@@ -147,6 +163,7 @@ img {
     padding-bottom: 188px;
   }
   .hero-title {
+    max-width: 500px;
     margin-bottom: 48px;
     margin-right: auto;
     margin-left: auto;
@@ -157,10 +174,10 @@ img {
     color: #ffffff;
   }
   .modal-btn {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -197,7 +214,6 @@ img {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-text-color);
@@ -205,9 +221,8 @@ img {
   
   /*---------TEAM--------*/
   .team-conteiner {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1440px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     }
   .team-title {
     margin-bottom: 72px;
@@ -231,11 +246,6 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-  }
-  .teams {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: center;
   }
   /*---------FOOTER--------*/
   .footer {
