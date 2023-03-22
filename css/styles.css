@@ -63,19 +63,12 @@ img {
    /* .page-header {
     background: #FFFFFF;
    }
-   
+    .page-nav {
+   }
    */
-  .page-nav {
-    box-sizing: border-box;
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-  }
-   .page-header-conteiner{
-    flex: none;
+  .page-header-conteiner{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
   .header-logo {
     font-family: "Raleway", sans-serif;
