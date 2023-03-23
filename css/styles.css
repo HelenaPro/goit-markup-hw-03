@@ -119,13 +119,16 @@ button {
 }
 .address {
   font-style: normal;
-  margin-left: auto;
   position: absolute;
 }
 .menu-contacts:not(:last-child) {
   margin-right: 40px;
 }
 .contact-mail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: auto;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
