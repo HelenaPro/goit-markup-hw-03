@@ -47,6 +47,10 @@ img {
 button {
   cursor: pointer;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
   /* ==============Components================ */
 .conteiner {
   max-width: 1158px;
@@ -117,8 +121,8 @@ button {
   color: var(--background-btn-color);
 }
 .address {
+  margin-left: auto;
   font-style: normal;
-  position: absolute;
 }
 .menu-contacts:not(:last-child) {
   margin-right: 40px;
@@ -127,8 +131,6 @@ button {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-left: auto;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -201,13 +203,6 @@ button {
 .suptitle-item:not(:last-child) {
   margin-right: 24px;
 }
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  height: 412px;
-  padding-top: 120px;  
-}
 .suptitle {
   font-weight: 500;
   font-size: 20px;
@@ -217,7 +212,8 @@ button {
   color: var(--primary-text-color);
   margin-bottom: 8px;
 }
-.text {
+.features-text {
+  display: flex;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -280,7 +276,9 @@ button {
 /*---------FOOTER--------*/
 .footer {
   background-color: var(--hero-footer-background-color);
-  padding: 100px 0;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -300,6 +298,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-footer-color);
+  margin-top: 17.5px;
 }
 /*---------PORTFOLIO--------*/
 .portfolio-btn:hover,
