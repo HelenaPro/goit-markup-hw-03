@@ -245,6 +245,7 @@ button {
   }
   .team-title {
     margin-bottom: 72px;
+    padding-top: 120px;
     text-align: center;
     weight: 700;
     font-size: 36px;
@@ -257,6 +258,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    padding-top: 232px;
+    padding-bottom: 120px;
   }
   .menu-team-item {
     background-color: #ffffff;
