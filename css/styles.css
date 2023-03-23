@@ -56,18 +56,6 @@ button {
   padding-left: 15px;
   padding-right: 15px;
 }
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
    /*---------HEADER--------*/
    /* .page-header {
     background: #FFFFFF;
@@ -196,11 +184,26 @@ button {
     background: var(--background-btn-color);
   }
   /*---------FEATURES--------*/
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
   .suptitle-item:not(:last-child) {
     margin-right: 24px;
     width: 264px;
   }
   .features {
+    display: flex;
+    flex-wrap: wrap;
+    height: 412px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -244,8 +247,8 @@ button {
     text-align: center;
   }
   .team-title {
-    padding-bottom: 72px;
     padding-top: 120px;
+    padding-bottom: 72px;
     text-align: center;
     weight: 700;
     font-size: 36px;
