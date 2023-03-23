@@ -232,7 +232,8 @@ button {
 }
 /*---------TEAM--------*/
 .team-conteiner {
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-align: center;
 }
 .team-title {
@@ -246,12 +247,8 @@ button {
   text-transform: capitalize;
   color: var(--primary-text-color);
 }
-.list-our-team {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  padding-top: 72px;
-  padding-bottom: 120px;
+.list-our-team:not(:nth-child(4n)) {
+  margin-right: 24px;
 }
 .menu-team-item {
   background-color: #ffffff;
@@ -295,6 +292,8 @@ button {
 .portfolio-btn:focus {
   background: var(--background-btn-color);
   color:#ffffff;
+  border-color: transparent;
+
 }
 .portfolio-btn {
   font-weight: 500;  
@@ -308,7 +307,6 @@ button {
   border-radius: 4px;
   padding: 12px 24px;
   border-bottom: 1px solid #E7E9FC;
-  border-radius: 4px;
 }
 .portfolio-title {
   font-weight: 500;
