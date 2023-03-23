@@ -109,9 +109,6 @@ button {
   .header-studio {
     color: var(--primary-text-color);
   }
-  .menu-item:not(:last-child) {
-    margin-right: 40px;
-  }
   .menu-link {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -197,6 +194,14 @@ button {
     background: var(--background-btn-color);
   }
   /*---------FEATURES--------*/
+  .menu-item:not(:last-child) {
+    margin-right: 24px;
+    width: 264px;
+  }
+  .features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .suptitle {
     font-weight: 500;
     font-size: 20px;
@@ -204,6 +209,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    margin-bottom: 8px;
   }
   .text {
     font-size: 16px;
