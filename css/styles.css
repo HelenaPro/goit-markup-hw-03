@@ -88,6 +88,9 @@ button {
     display: flex;
     align-items: center;
   }
+  .menu-header-item:not(:last-child) {
+    margin-right: 40px;
+  }    
   .header-logo {
     display: flex;
     flex-direction: row;
