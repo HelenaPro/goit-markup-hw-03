@@ -72,11 +72,16 @@ button {
 }
 .menu-list {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 .menu-header-item:not(:last-child) {
   margin-right: 40px;
 }    
 .header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 76px;
@@ -123,6 +128,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  position: absolute;
+  width: 153px;
+  height: 24px;
 }
 .contact-mail:hover,
 .contact-mail:focus{
@@ -248,6 +256,10 @@ button {
   color: var(--primary-text-color);
 }
 .list-our-team:not(:nth-child(4n)) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 72px;
   margin-right: 24px;
 }
 .menu-team-item {
