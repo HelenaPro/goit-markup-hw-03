@@ -85,8 +85,9 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -104,8 +105,8 @@ button {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   font-weight: 500;
   font-size: 16px;
@@ -257,8 +258,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-top: 72px;
-  margin-right: 24px;
 }
 .menu-team-item {
   background-color: #ffffff;
