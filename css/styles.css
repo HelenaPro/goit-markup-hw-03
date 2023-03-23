@@ -90,7 +90,6 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-web-color)
@@ -99,6 +98,9 @@ button {
   color: var(--primary-text-color);
 }
 .menu-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
@@ -118,6 +120,7 @@ button {
 .address {
   font-style: normal;
   margin-left: auto;
+  position: absolute;
 }
 .menu-contacts:not(:last-child) {
   margin-right: 40px;
@@ -128,9 +131,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  position: absolute;
-  width: 153px;
-  height: 24px;
 }
 .contact-mail:hover,
 .contact-mail:focus{
