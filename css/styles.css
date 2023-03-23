@@ -138,10 +138,10 @@ button {
   color: var(--accent-color);
 }
 .contact-mail:hover,
-.contact-mail:focus{
+.contact-mail:focus {
   color: var(--active-color);
 }
-.contact-mail:active{
+.contact-mail:active {
   color: var(--background-btn-color);
 }
 /*---------HERO--------*/
@@ -205,6 +205,7 @@ button {
   margin-right: 24px;
 }
 .suptitle {
+  width: 264px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -213,7 +214,6 @@ button {
   margin-bottom: 8px;
 }
 .features-text {
-  display: flex;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
