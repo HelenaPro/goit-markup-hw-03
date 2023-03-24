@@ -122,11 +122,9 @@ button {
   color: var(--background-btn-color);
 }
 .address {
-  margin-left: auto;
-}
-.menu-contacts {
   display: flex;
   gap: 40px;
+  margin-left: auto;
 }
 .contact-mail {
   font-size: 16px;
