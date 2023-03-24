@@ -123,14 +123,11 @@ button {
 }
 .address {
   margin-left: auto;
-  font-style: normal;
-}
-.menu-contacts:not(:last-child) {
-  margin-right: 40px;
 }
 .contact-mail {
   display: flex;
   flex-direction: row;
+  gap: 40px;
   align-items: flex-start;
   font-size: 16px;
   line-height: 1.5;
