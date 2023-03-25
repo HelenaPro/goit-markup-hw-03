@@ -68,7 +68,6 @@ button {
 }
 .page-header-container {
   display: flex;
-  align-items: center;
 }
 .page-nav {
   display: flex;
