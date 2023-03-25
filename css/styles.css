@@ -318,6 +318,7 @@ flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 gap: 24px;
+margin: 0 auto;
 }
 .portfolio-btn {
   display: flex;
