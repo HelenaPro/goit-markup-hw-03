@@ -312,7 +312,7 @@ button {
   padding-left: 156px;
   padding-right: 156px;
 }
-.filter-portfolio-btn {
+.portfolio-btn {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -341,6 +341,9 @@ button {
   justify-content: space-between;
   gap: 24px;
   margin-bottom: 48px;
+}
+.list-portfolio {
+  width: 1128px;
 }
 .portfolio-title {
   font-weight: 500;
