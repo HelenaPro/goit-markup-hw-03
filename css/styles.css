@@ -303,6 +303,9 @@ button {
 .port-btn-cont {
   display: flex;
 }
+.portf-img-conteiner {
+  display: flex;
+}
 .filter-portfolio {
   display: flex;
   padding-top: 96px;
