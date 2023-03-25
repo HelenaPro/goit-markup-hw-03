@@ -71,11 +71,9 @@ button {
   align-items: center;
 }
 .page-nav {
-  display: flex;
   margin-right: auto;
 }
 .menu-list {
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
@@ -83,7 +81,6 @@ button {
   margin-right: 40px;
 }    
 .header-logo {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
@@ -103,7 +100,6 @@ button {
   color: var(--primary-text-color);
 }
 .menu-link {
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
   margin-top: 24px;
@@ -125,11 +121,9 @@ button {
 .menu-contacts {
   color: var(--accent-color);
   margin-left: auto;
-  display: flex;
   gap: 40px;
 }
 .contact-mail {
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
   font-size: 16px;
