@@ -122,10 +122,12 @@ button {
 .menu-link:active {
   color: var(--background-btn-color);
 }
+.address {
+  margin-left: auto;
+}
 .menu-contacts {
   display: flex;
   color: var(--accent-color);
-  margin-left: auto;
   gap: 40px;
 }
 .contact-mail {
