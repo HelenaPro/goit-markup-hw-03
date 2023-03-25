@@ -62,7 +62,6 @@ button {
 }
 /*---------HEADER--------*/
 .page-header {
-  display: flex;
   max-width: 1158px;
   margin-top: 24px;
   margin-bottom: 24px;
