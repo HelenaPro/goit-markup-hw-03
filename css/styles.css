@@ -128,7 +128,7 @@ button {
   display: flex;
   gap: 40px;
 }
-.menu-contacts-item {
+.contact-mail {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
