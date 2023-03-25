@@ -122,17 +122,12 @@ button {
 .menu-link:active {
   color: var(--background-btn-color);
 }
-.address {
+.menu-contacts {
+  margin-left: auto;
   display: flex;
   gap: 40px;
-  margin-left: auto;
 }
-.menu-contacts {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start; 
-}
-.contact-mail {
+.menu-contacts-item {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -148,9 +143,7 @@ button {
 .contact-mail:active {
   color: var(--background-btn-color);
 }
-.menu-contacts-item:not(:last-child) {
-  margin-right: 40px;
-}
+
 /*---------HERO--------*/
 .team {
   background-color: #f4f4fd;
@@ -306,14 +299,15 @@ button {
   margin: 0 auto;
 }
 /*---------PORTFOLIO--------*/
-.section-portfolio {
-  margin: 0 auto;
+.port-btn-cont {
+  display: flex;
 }
 .filter-portfolio {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  justify-content: center;
+  margin: 0 auto;
   gap: 24px;
 }
 .portfolio-btn {
@@ -342,20 +336,13 @@ button {
 }
 .image-portfolio {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
   margin-bottom: 48px;
 }
-.list-portfolio:not(:nth-child(9n)) {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  width: 360px;
-} 
 .portfolio-item {
-  box-sizing: border-box;
-  width: 360px;
-  background: #FFFFFF;
-  border: 1px solid #E7E9FC;
+  display: flex;
+  justify-content: space-between;
 }
 .portfolio-title {
   font-weight: 500;
@@ -363,18 +350,14 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--portfolio-btn-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .portfolio-text-img {
   display: flex;
