@@ -340,7 +340,8 @@ button {
   row-gap: 48px;
   column-gap: 24px;
   flex-basis: calc(100% / 3 - 48px);
-  margin: auto;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 .portfolio-text-img {
   padding: 32px 16px;
