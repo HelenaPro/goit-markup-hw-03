@@ -67,6 +67,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
+  max-width: 1158px;
   display: flex;
   align-items: center;
   justify-content: space-between;
