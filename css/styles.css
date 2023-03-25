@@ -336,14 +336,15 @@ button {
   background-color: var(--portfolio-background);
   border: none;
 }
-.image {
+.image-portfolio {
   display: flex;
   justify-content: space-between;
   gap: 24px;
   margin-bottom: 48px;
 }
 .list-portfolio {
-  width: 360px;
+  width: calc ((100%-48px)/3);
+  flex-basis: calc((100%-48px)/3);
 }
 .portfolio-title {
   font-weight: 500;
