@@ -126,6 +126,11 @@ button {
   gap: 40px;
   margin-left: auto;
 }
+.menu-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+}
 .contact-mail {
   display: flex;
   flex-direction: row;
@@ -141,6 +146,9 @@ button {
 }
 .contact-mail:active {
   color: var(--background-btn-color);
+}
+.menu-contacts-item:not(:last-child) {
+  margin-right: 40px;
 }
 /*---------HERO--------*/
 .team {
