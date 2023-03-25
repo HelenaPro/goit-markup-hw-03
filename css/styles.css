@@ -58,6 +58,7 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 /*---------HEADER--------*/
 .page-header {
@@ -196,7 +197,6 @@ button {
   display: flex;
 }
 .visually-hidden {
-  position: absolute;
   white-space: nowrap;
   width: 1px;
   height: 1px;
