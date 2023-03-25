@@ -312,6 +312,13 @@ button {
   padding-left: 156px;
   padding-right: 156px;
 }
+.filter-portfolio {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+}
 .portfolio-btn {
   display: flex;
   flex-direction: row;
@@ -346,18 +353,30 @@ button {
   width: calc ((100%-48px)/3);
   flex-basis: calc((100%-48px)/3);
 }
+.portfolio-item {
+  box-sizing: border-box;
+  width: 360px;
+  background: #FFFFFF;
+  border: 1px solid #E7E9FC;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--portfolio-btn-color);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .portfolio-text-img {
   display: flex;
