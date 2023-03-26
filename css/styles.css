@@ -74,6 +74,7 @@ button {
 .page-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .menu-list {
   display: flex;
