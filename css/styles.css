@@ -306,6 +306,7 @@ button {
 /*---------PORTFOLIO--------*/
 .filter-portfolio {
   display: flex;
+  margin-top: 96px;
   margin-bottom: 72px;
   justify-content: center;
 }
