@@ -155,6 +155,7 @@ button {
   padding-bottom: 188px;
 }
 .hero-title {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   max-width: 500px;
