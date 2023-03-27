@@ -309,6 +309,9 @@ button {
 .section-portfolio {
   padding-bottom: 120px;
 }
+.filter-portfolio-btn:not(:last-child) {
+  margin-right: 24px;
+}
 .filter-portfolio {
   display: flex;
   margin-top: 96px;
